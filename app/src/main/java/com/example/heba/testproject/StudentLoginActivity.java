@@ -13,13 +13,13 @@ public class StudentLoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_login);
     }
-    public void studentLogin(View view)
-    {
+
+    public void studentLogin(View view) {
         ((Button) view).setBackgroundResource(R.drawable.clicked_btn);
 
     }
-    public void reg(View view)
-    {
-        startActivity(new Intent(this,RegActivity.class));
+
+    public void reg(View view) {
+        startActivity(new Intent(this, RegActivity.class));
     }
 }

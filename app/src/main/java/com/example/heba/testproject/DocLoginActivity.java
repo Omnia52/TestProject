@@ -12,8 +12,8 @@ public class DocLoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doc_login);
     }
-    public void doctorLogin(View view)
-    {
+
+    public void doctorLogin(View view) {
         ((Button) view).setBackgroundResource(R.drawable.clicked_btn);
     }
 }

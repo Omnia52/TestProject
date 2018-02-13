@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,11 +19,12 @@
             android:background="@android:color/white"
             android:gravity="center"
             android:orientation="vertical">
+
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/ain_shams_logo"
-                />
+                android:src="@drawable/ain_shams_logo" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -43,9 +45,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="16dp"
-                android:textColor="#388E3C"
                 android:text="Loading."
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#388E3C"
                 android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>

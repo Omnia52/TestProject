@@ -33,9 +33,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
+                android:background="@drawable/my_button_bg"
                 android:drawSelectorOnTop="true"
                 android:onClick="doctorClick"
-                android:background="@drawable/my_button_bg"
                 android:text="Doctor" />
 
             <Button
@@ -43,8 +43,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:onClick="studentClick"
                 android:background="@drawable/my_button_bg"
+                android:onClick="studentClick"
                 android:text="Student" />
 
 
